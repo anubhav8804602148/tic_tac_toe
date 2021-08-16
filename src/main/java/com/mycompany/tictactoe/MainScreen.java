@@ -43,54 +43,63 @@ public class MainScreen extends javax.swing.JFrame {
         setTitle("TAP ON TOE");
         setResizable(false);
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
+        jButton3.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
 
+        jButton4.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
+        jButton5.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
+        jButton6.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
+        jButton7.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
+        jButton8.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
             }
         });
 
+        jButton9.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -157,8 +166,8 @@ public class MainScreen extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         String txt = jButton3.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton3.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton3.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -167,8 +176,8 @@ public class MainScreen extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         String txt = jButton1.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton1.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton1.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -177,8 +186,8 @@ public class MainScreen extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:        
         String txt = jButton2.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton2.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton2.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -188,8 +197,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton6.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton6.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton6.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -199,8 +208,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton4.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton4.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton4.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -210,8 +219,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton5.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton5.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton5.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -221,8 +230,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton9.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton9.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton9.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -232,8 +241,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton7.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton7.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton7.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
@@ -243,8 +252,8 @@ public class MainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         String txt = jButton8.getText();
-        if (!txt.contains("X") && !txt.contains("0")){
-            jButton8.setText(turn?"X":"0");
+        if (!txt.contains("X") && !txt.contains("O")){
+            jButton8.setText(turn?"X":"O");
             turn = !turn;
         }
         check_winner();
